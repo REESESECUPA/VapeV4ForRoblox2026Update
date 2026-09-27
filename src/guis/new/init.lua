@@ -83,6 +83,11 @@ vape:CreateCategory({
 	Size = UDim2.fromOffset(14, 14)
 })
 vape:CreateCategory({
+	Name = 'Network',
+	Icon = getvapeasset('newvape/assets/new/blatant.png'),
+	Size = UDim2.fromOffset(14, 14)
+})
+vape:CreateCategory({
 	Name = 'Render',
 	Icon = getvapeasset('newvape/assets/new/render.png'),
 	Size = UDim2.fromOffset(15, 14)
@@ -479,12 +484,13 @@ guipane:CreateButton({
 			GUICategory = 1,
 			CombatCategory = 2,
 			BlatantCategory = 3,
-			RenderCategory = 4,
-			UtilityCategory = 5,
-			WorldCategory = 6,
-			InventoryCategory = 7,
-			FriendsCategory = 8,
-			ProfilesCategory = 9
+			NetworkCategory = 4,
+			RenderCategory = 5,
+			UtilityCategory = 6,
+			WorldCategory = 7,
+			InventoryCategory = 8,
+			FriendsCategory = 9,
+			ProfilesCategory = 10
 		}
 
 		local categories = {}
