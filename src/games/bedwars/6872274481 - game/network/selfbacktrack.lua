@@ -86,9 +86,9 @@ local function getOffsetCFrame()
         return CFrame.new(offsetX, offsetY, offsetZ)
     else
         local ping = LocalPlayer:GetNetworkPing() * 1000
-        if ping < 100 then return CFrame.new(0, 0, 2)
-        elseif ping <= 170 then return CFrame.new(0, 0, 2.7)
-        else return CFrame.new(0, 0, 3.7) end
+        if ping < 100 then return CFrame.new(0, 0, 3.5)
+        elseif ping <= 170 then return CFrame.new(0, 0, 4)
+        else return CFrame.new(0, 0, 4) end
     end
 end
 
